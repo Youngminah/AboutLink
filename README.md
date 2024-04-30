@@ -324,7 +324,7 @@ Disassembly of section __TEXT,__text:
 - 질문으로 들어온 내용이였다.
 - 당시 발표대는 해본적은 없지만 dead_code_stripping이 더 마지막 단계에서 일어나는 연산이라
 - 아마 안쓰는 심볼에 대한 내용은 삭제될거라 답은 했었는데, 발표 후에 한번 해보았다.
-- `gcc -o myprogram main.o -Wl,-all_load,libmint.a -Wl,-dead_strip` : -all_load 옵션에 dead_code_stripping 까지 적용하여 아카이브
+- `gcc -o main main.o -Wl,-all_load,libmint.a -Wl,-dead_strip` : -all_load 옵션에 dead_code_stripping 까지 적용하여 아카이브
 - main 실행파일의 _TEXT출력결과
 ```
 
